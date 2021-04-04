@@ -123,7 +123,7 @@ public struct Styles {
         dropShadowColor: Color.gray)
     
     public static let lineViewDarkMode = ChartStyle(
-        backgroundColor: Color.Background,
+        backgroundColor: Colors.Background,
         accentColor: Colors.OrangeStart,
         secondGradientColor: Colors.OrangeEnd,
         textColor: Color.white,
