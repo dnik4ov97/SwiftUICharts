@@ -28,6 +28,7 @@ public struct Colors {
     public static let GradientLowerBlue:Color = Color(hexString: "#F1F9FF")
     public static let DarkPurple:Color = Color(hexString: "#1B205E")
     public static let BorderBlue:Color = Color(hexString: "#4EBCFF")
+    public static let Background:Color = Color(hexString: "#2B333D")
 }
 
 public struct GradientColor {
@@ -122,7 +123,7 @@ public struct Styles {
         dropShadowColor: Color.gray)
     
     public static let lineViewDarkMode = ChartStyle(
-        backgroundColor: Color.black,
+        backgroundColor: Color.Background,
         accentColor: Colors.OrangeStart,
         secondGradientColor: Colors.OrangeEnd,
         textColor: Color.white,
